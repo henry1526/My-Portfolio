@@ -1,0 +1,56 @@
+body {
+	margin-top: 60px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+
+.header {
+    z-index : 100;
+    position : absolute;
+    font-size : 24px;
+    font-weight : bold;
+    margin : auto;
+    padding-top : 150px;
+}
+
+.headline {
+	background: url(http://i.imgur.com/14eDEcG.jpg); /* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
+	background-position: left;
+	height: 380px;
+	display:block;
+	width: 100%;
+	text-align: left;
+}
+.featurette-divider {
+	margin: 20px 0;
+}
+.featurette {
+	overflow: auto;
+}
+
+.spacer-md {
+    margin-top: 50px;
+}
+
+.featurette-image.pull-left {
+	margin-right: 40px;
+}
+.featurette-image.pull-right {
+	margin-left: 0px;
+}
+
+.featurette-heading {
+	font-size: 26px;
+}
+
+.featurette-heading2 {
+	font-size: 30px;
+    text-decoration: : underline;
+
+/* RESPONSIVE CSS */
+
+@media (max-width: 768px) {
+
+.container {margin: 0 15px;}
+.featurette-divider {margin: 40px 0;}
+.featurette-heading {font-size: 25px;}
+
+}
